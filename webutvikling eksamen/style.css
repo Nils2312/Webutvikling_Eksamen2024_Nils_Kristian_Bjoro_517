@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0 15px; 
+}
+
+
+/* HEADER */
+header {
+    padding: 20px 0; 
+}
+
+#søkefelt {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#søkefelt input {
+    padding: 15px; 
+    border: 1px solid #000; 
+    font-size: 16px;
+}
+
+#søkefelt button {
+    padding: 15px;
+    border: 1px solid #000;
+    background: none;
+}
+
+#meny ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#meny ul li {
+    margin-bottom: 10px;
+}
+
+#meny ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#meny .logo {
+    font-weight: bold;
+    font-size: 28px; 
+}
+
+#ikoner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 80px; 
+    padding-top: 60px; 
+}
+
+#footerlogo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+footer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0 15px;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px 0 20px;
+}
+
+footer p, footer ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footertekst {
+    margin-bottom: 40px;
+}
+
+#sosialemedier i {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* INDEX */
+
+/* Seksjon 1 */
+#banner {
+    background-color: #d3d3d3;
+    text-align: right; 
+    padding: 40px; 
+    margin-top: 20px;
+    min-height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#banner h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#banner p {
+    font-size: 14px; 
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+#banner .knapp1 {
+    background-color: white;
+    color: black;
+    text-decoration: none; 
+    padding: 15px 20px; 
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    margin-left: auto; 
+    text-align: right; 
+}
+
+/* Seksjon 2 */
+
+#mestpopulære {
+    margin-top: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+#produktbokser {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: relative;
+}
+
+#produktbokser article {
+    border: 1px solid black;
+    flex: 1;
+    max-width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.usynligtekst {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* Seksjon 3 */
+
+#produkter {
+    width: 100%; 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#produkter img {
+    width: 100%; 
+}
+
+#produkter h3 {
+    font-size: 18px; 
+    font-weight: bold;
+    margin: 10px 0 10px 0; 
+}
+
+#produkter p {
+    font-size: 16px;
+}
+
+.produkter1 {
+    width: 100%; 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.produkter1 img {
+    width: 100%; 
+}
+
+.produkter1 h3 {
+    font-size: 18px; 
+    font-weight: bold;
+    margin: 10px 0 10px 0; 
+}
+
+.produkter1 p {
+    font-size: 16px;
+}
+
+#populære-kategorier h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#populære-kategorier p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#populære-kategorier a {
+    display: block; 
+    text-decoration: none;
+    color: inherit; 
+    margin-bottom: 15px; 
+}
+
+#populære-kategorier a article {
+    border: 1px solid black;
+    padding: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#populære-kategorier #boks3 article {
+    padding: 250px 30px;
+    font-size: 18px;
+}
+
+
+/* Seksjon 4 */
+
+#anmeldelser {
+    text-align: left;
+    margin-top: 50px;
+}
+#anmeldelser h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#anmeldelser article {
+    gap: 20px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+#anmeldelser img {
+    max-width: 150px;
+}
+#anmeldelser h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#anmeldelser p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+#anmeldelse2 {
+    text-align: left;
+    margin-top: 20px;
+}
+#anmeldelse2 article {
+    gap: 20px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+#anmeldelse2 img {
+    max-width: 150px;
+}
+#anmeldelse2 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#anmeldelse2 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+#anmeldelse3 {
+    text-align: left;
+    margin-top: 20px;
+}
+#anmeldelse3 article {
+    gap: 20px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+#anmeldelse3 img {
+    max-width: 150px;
+}
+#anmeldelse3 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#anmeldelse3 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+#anmeldelse4 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#anmeldelse4 article {
+    gap: 20px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+#anmeldelse4 img {
+    max-width: 150px;
+}
+#anmeldelse4 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#anmeldelse4 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/* PRODUKTSIDE */
+
+#breadcrumb {
+    font-size: 18px;
+    display: flex; 
+    align-items: center; 
+    gap: 19px; 
+    margin-top: 30px;
+}
+
+#breadcrumb a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: normal; 
+}
+
+#breadcrumb a.active {
+    font-weight: bold; 
+}
+
+#productbilde1 {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin-top: 40px;
+}
+
+.productbilde2 {
+    width: 100%;
+    height: auto; 
+    display: block;
+    margin-top: 5px;
+}
+
+#productbilde3 {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+#produktnavn {
+    font-size: 30px;
+}
+
+#merkenavn {
+    margin-top: 15px; 
+}
+
+#merkenavn a {
+    text-decoration: underline; 
+    color: black; 
+    font-weight: lighter; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+#produktpris {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#produktfarge {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#lignendeprodukterh2 {
+    padding-left: 15px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#lignendeprodukt {
+    display: block; 
+    padding: 15px; 
+    width: 100%; 
+    height: auto; 
+    box-sizing: border-box; 
+}
+
+.produktinfo {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+}
+
+.produktinfo h3 {
+    font-size: 30px; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.produktinfo p {
+    font-size: 16px; 
+    font-weight: normal; 
+    margin: 0; 
+}
+
+.lignendeprodukt1 {
+    display: block; 
+    padding: 15px; 
+    width: 100%; 
+    height: auto; 
+    box-sizing: border-box; 
+    margin-top: 35px;
+}
+
+
+
+
+/* KASSE-SIDE */
+
+#kasseh2 {
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-top: 30px;
+    text-align: left;
+}
+
+#shoppingbagenh2 {
+    font-size: 30px; 
+    margin-top: 80px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.handlebilde1 {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    text-align: left;
+}
+
+.handlekurvnavn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.handlekurvnavn h3 {
+    font-weight: bold;
+}
+
+#dineopplysningerh2 {
+    font-size: 30px; 
+    margin-top: 60px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#dineopplysninger {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#dineopplysninger input {
+    width: 100%;
+    padding: 22px;
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#dineopplysninger input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left; 
+}
+
+.kurvknapp {
+    display: block;
+    padding: 25px;
+    background-color: #333; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+#avbryt-knapp {
+    background: none; 
+    border: none; 
+    color: blue;
+    text-decoration: underline;
+    font-size: 16px; 
+    padding: 0; 
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#leveringh2 {
+    font-size: 30px; 
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.leveringsvalgh3 {
+    font-size: 20px; 
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#leveringsvalg {
+    display: flex;
+    flex-direction: column; 
+    gap: 25px; 
+    text-align: left; 
+    padding: 0;
+}
+
+#leveringsvalg label {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+#leveringsvalg input{
+    margin-right: 15px; 
+    width: 15px; 
+    height: 15px; 
+}
+
+#betalingh2 {
+    font-size: 30px; 
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+#betaling {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+#betaling label {
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+}
+
+#betaling input {
+    width: 100%;
+    padding: 22px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#betaling input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input {
+    padding-right: 40px; 
+}
+
+.input-container i {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+.input-container i {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+#åbetale {
+    margin-top: 30px;
+}
+
+#pris {
+    font-size: 30px; 
+}
+
+#kjøpknapp {
+    display: block;
+    padding: 25px;
+    background-color: #333; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#valg {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    margin-top: 15px; 
+}
+
+#valg label {
+    font-weight: normal; 
+    color: black; 
+}
+
+#valg input {
+    margin-right: 1px;
+}
+
+
+
+
